@@ -51,7 +51,7 @@ public class Main {
 
         URLConnection connection = null;
         try {
-            connection = new URL("http://google.co.uk").openConnection(proxy);
+            connection = new URL("https://google.co.uk").openConnection(proxy);
             connection.setConnectTimeout(1000);
             connection.setReadTimeout(1000);
         } catch (IOException e) {
